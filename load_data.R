@@ -1,4 +1,4 @@
-loadData <- function(dataType) {
+loadData <- function() {
   
   if(!(file.exists("summarySCC_PM25.rds") && 
     file.exists("Source_Classification_Code.rds"))) { 
